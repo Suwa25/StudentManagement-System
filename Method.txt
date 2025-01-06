@@ -1,0 +1,9 @@
+>curl -X POST http://localhost:8083/students -H "Content-Type: application/json" -d "{\"id\":1,\"name\":\"Sagar Rathi\",\"department\":\"Engineering\",\"percentage\":85.5}"
+
+
+curl -X PUT "http://localhost:8086/students/1" -H "Content-Type: application/json" -d "{\"id\":1,\"name\":\"Sagar Rathi Updated\",\"department\":\"CS\",\"percentage\":90}"
+
+
+
+
+//server.port=8086
